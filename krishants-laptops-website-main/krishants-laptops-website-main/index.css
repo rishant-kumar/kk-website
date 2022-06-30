@@ -1,0 +1,337 @@
+/*style for h1 tag*/
+h1 {
+	font-family: arial;
+	font-size: 40px;
+	margin-left: auto;
+	margin right: auto;
+	text-shadow: 0px 1px 0px darkgray, 0px 2px 0px gray, 0px 3px 0px lightslategray, 0px 4px 0px dimgray, 0px 5px 0px darkslategray, 0px 6px 5px black;
+}
+
+/*style for h2 tag*/
+h2 {
+	font-family: arial;
+	text-align: center;
+	font-size: 40px;
+}
+
+/*style for h4 tag*/
+h4 {
+	font-family: arial;
+	text-align: center;
+}
+
+/*style for p tag*/
+p {
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*style for body tag*/
+body {
+	background-image: url("C:\Users\Krishant Kumar\Desktop\DGT100\backgroundtexture.png") background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*navbar css code*/
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	border-radius: 5px;
+	box-shadow: 0 19px 51px 0 rgba(1, 1, 1, 1), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+
+/*The css code for the navbar dropdown*/
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	font-size: 20px;
+}
+
+/*Css code for when the mouse hovers the links and dropdown*/
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+	background-color: #1694A0;
+	transition: .3s ease;
+}
+
+/*This is the Css for the content in the dropdown*/
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #DDD8E9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Css code for the a tags in the dropdown*/
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+/* Css code that changes the background color of the links in the dropdown when the mouse hovers over it*/
+.dropdown-content a:hover {
+	background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/*Css code to center the images in my website*/
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 100%;
+	border: solid;
+	border-color: black;
+	border-width: 5px;
+	box-shadow: 0 19px 51px 0 rgba(1, 1, 1, 1.16), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
+}
+
+/*css code for the animated images*/
+.container {
+	position: relative;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+}
+
+/*Css code for the text that fades on the animated images*/
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: #1694A0;
+	display: block;
+	margin-left: auto;
+	margin-right: inherit;
+}
+
+/* css code for the overlay opacity*/
+.container:hover .overlay {
+	opacity: 0.75;
+}
+
+/* Css code for the text on the overlay*/
+.text {
+	color: white;
+	font-size: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/*style for the laptop images in the pages*/
+.chromebook {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 900px;
+	border: solid;
+	border-color: black;
+	border-width: 5px;
+	box-shadow: 0 19px 51px 0 rgba(1, 1, 1, 1.16), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
+}
+
+/* css code for the imbedded youtube videos*/
+.imbed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 315px;
+	width: 560px;
+	border: solid;
+	border-color: black;
+	border-width: 5px;
+	box-shadow: 0 19px 51px 0 rgba(1, 1, 1, 1.16), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
+}
+
+/*css code to center align the footer*/
+.text-center {
+	text-align: center;
+}
+
+/*Css code for my logo in all the pages*/
+video {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	box-shadow: 0 19px 51px 0 rgba(1, 1, 1, 1.16), 0 14px 19px 0 rgba(0, 0, 0, 0.07);
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+figure {
+	border: 1px #cccccc solid;
+	padding: 4px;
+	margin: auto;
+}
+
+/*figcaption tag for the price of the laptop*/
+figcaption {
+	background-color: black;
+	color: white;
+	padding: 2px;
+	text-align: center;
+	font-size: 30px;
+}
+
+/*The add to cart button css*/
+.add-to-cart {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 15%;
+	font-size: 20px;
+	border-radius: 5px;
+	font-weight: 600;
+}
+
+/* Add to cart css for when the mouse hovers over it, it transitions into blue*/
+.add-to-cart:hover {
+	background-color: #1694A0;
+	transition: .3s ease;
+}
+
+/* text decoration none for add to cart link*/
+.add-to-cart-link {
+	text-decoration: none;
+}
+
+/*The table full of all the specifications of the laptop*/
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+}
+
+/*Background color of the table*/
+tr {
+	background-color: lightgray;
+}
+
+/* Css code to center the h1 tag above the table of specifications*/
+.title-center {
+	text-align: center;
+}
+
+/*Source of the imbedded youtube video*/
+.source {
+	font-size: 11px;
+}
+
+/*from line 284 to 316 is the css code for the contact form*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #000;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #1694A0;
+	transition: 0.3s ease;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: lightgrey;
+	padding: 20px;
+}
+
+contactform {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
